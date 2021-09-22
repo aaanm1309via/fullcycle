@@ -1,0 +1,44 @@
+## Instalar Nest.Js global
+npm install -g @nestjs/cli
+
+## Criar o projeto
+npx @nestjs/cli new nestjs-api
+
+
+## rodar o programa 
+npm run start:dev
+
+## adicionar recursos
+nest g resource
+
+## Install Sequelize - para persistencia em banco de dados
+npm install --save @nestja/sequelize 
+npm install --save sequelize sequelize-typescript mysql2
+npm install --save-dev @types/sequelize
+
+
+npm install @nestjs/config --save
+
+npm install class-validator class-transformer
+
+
+## para subir o docker
+docker-compose up
+
+
+## Criando Modulos
+
+nest g module common
+
+nest g module auth
+
+## instalar passport
+npm install @nestjs/passport passport passport-jwt --save
+npm install @types/passport-jwt --save-dev
+
+
+## criart servico
+nest g service auth/jwt-strategy
+
+
+npm install date-fns --save
